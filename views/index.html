@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CODEB.IN</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="content/_bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Snippet -->
+	<link href="content/_snippet/css/jquery.snippet.min.css" rel="stylesheet">
+	<!-- Pastebin -->
+	<link href="content/css/pastebin.css" rel="stylesheet">
+  </head>
+  <body>
+  <div class="content"> 
+  
+  <div class="page header">
+  		<h1>CODEB.IN</h1>
+  </div>
+
+<div class="page">
+	<div class="page-header">
+		<h2>Formatted</h2>
+	</div>
+
+	<div id="code-block">
+<pre id="formatted-text">
+for(int i = 0; i < 10; i++) 
+{ 
+	print(i) 
+}
+</pre>
+	</div>
+
+</div>
+
+	<div class="page clear-text-block">
+		<div class="page-header">
+			<h2>Clear text</h2>
+		</div>
+		<input type="text" id="title-field" placeholder="Title" value="No title">
+<textarea id="clear-text" rows="3">
+for(int i = 0; i < 10; i++) 
+{ 
+	print(i) 
+}
+</textarea>
+	</div>
+
+	<!-- action footer -->
+	<div class="page actions" id="actions"> 
+		<input type="text" id="username-field" placeholder="Username" value="Anonymous">
+		<a href="#" id="send-text" class="btn btn-primary">Submit</a>
+		<a href="#" id="preview-text" class="btn btn-success">Preview</a>
+
+		<div class="pull-right">
+			<a href="#" id="clear-all" class="btn btn-danger">Clear</a>
+		</div>
+	</div>
+
+	<!-- Last posts panel -->
+	<div id="last-posts-panel">
+		<!-- <div class="loadingIndicator">Loading...</div> -->
+		<span class="last-posts-panel-header">
+			Last posts
+		</span>
+	    <table width='100%' data-bind="foreach: lastPosts">
+	        <tr class="last-posts-item" data-bind="attr: {'post-id': postId}">
+	            <td class="img-column">
+	            	<img src="http://icons.iconarchive.com/icons/deleket/adobe-cs4/256/File-Adobe-Dreamweaver-CSS-01-icon.png" class="post-codetype"/>
+	            </td>
+	            <td>
+	            	<span data-bind="text: title" class="title"> </span>
+	                <span data-bind="text: createdBy" class="created-by"> </span>
+	                <span data-bind='text: createdAt' class="created-at"> </span>
+	            </td>
+	        </tr>
+	    </table>
+	</div>
+
+
+		<!-- Scripts -->
+		<!-- Bootstrap -->
+    <script src="content/_jquery/jquery-1.9.1.min.js"></script>
+		<!-- Bootsrap -->
+    <script src="content/_bootstrap/js/bootstrap.min.js"></script>
+    	<!-- Knockout JS -->
+    <script src="content/_knockout/knockout-2.2.1.js"></script>
+		<!-- Snippet -->
+    <script src="content/_snippet/js/jquery.snippet.min.js"></script>
+		<!-- Pastebin -->
+    <script src="content/js/pastebin.js"></script>
+
+  </body>
+</html>

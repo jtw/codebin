@@ -1,0 +1,154 @@
+body
+{
+	background-color: #F4F5F5;
+}
+
+.content
+{
+	margin: auto;
+	width: 1000px;
+	min-width: 500px;
+}
+
+.page 
+{
+	padding: 10px;
+	margin-bottom: 10px;
+	background-color: #fff;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+	box-shadow: 0 1px 2px rgba(0,0,0,.15);
+}
+
+	.page-header
+	{
+		margin: 0px 0 10px;
+	}
+
+	.page-header h2
+	{
+		margin: 0px;
+	}
+
+.fixed
+{
+	position: fixed;
+}
+
+.snippet-wrap pre.sh_sourceCode
+{
+	border: none;
+	-webkit-border-radius: 0px !important;
+	-moz-border-radius: 0px !important;
+	border-radius: 0px !important;
+	-webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	box-shadow: none !important;
+}
+
+.header
+{
+	text-align: center;
+}
+
+.footer
+{
+	position: absolute;
+	bottom: 0px;
+	width: 1000px !important;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+	margin-top: 10px;
+}
+
+div#last-posts-panel
+{
+	width: 180px;
+	height: 670px;
+	position: fixed;
+	top: 90px;
+	left: 10px;
+	padding: 5px 0px;
+	background-color: #fff;
+
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+	box-shadow: 0 1px 2px rgba(0,0,0,.15);
+}
+
+	.last-posts-panel-header
+	{
+		padding: 5px;
+		padding-bottom: 10px;
+		text-align: center;
+		font-weight: bold;
+		font-size: 16pt;
+	}
+
+	.last-posts-item
+	{
+		height: 60px;
+		border-top: 1px solid #EEE;
+		border-bottom: 1px solid #EEE;
+	}
+
+	.last-posts-item:hover
+	{
+		cursor: pointer;
+		background-color: #DDD;
+	}
+
+		.last-posts-item .img-column
+		{
+			width: 32px;
+		}
+
+		.last-posts-item img
+		{
+			margin-left: 5px;
+		}
+
+		.last-posts-item .title
+		{
+			font-weight: bold;
+		}
+
+		.last-posts-item .created-by, .last-posts-item .created-at
+		{
+			font-size: 10pt;
+		}
+
+	.post-codetype
+	{
+		width: 24px;
+		height: 24px;
+	}
+
+	div#last-posts-panel span
+	{
+		display: block
+	}
+
+textarea#clear-text
+{
+	min-height: 200px;
+	min-width: 960px;
+	max-width: 960px;
+	padding: 10px;
+}
+
+div#actions
+{
+	z-index: 100;
+	bottom: 0;
+	height: 30px;
+	width: 980px;
+	margin-top: 10px;
+}

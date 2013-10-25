@@ -1,0 +1,9 @@
+# Pastebin dependencies which should not be committed
+node_modules/
+
+# OS Generated files
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+
